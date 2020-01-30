@@ -10,7 +10,7 @@ app.get("/players/:playerId", async (req, res, next) => {
     const players = JSON.parse(await getData()).players;
     const p = players.find(player => player.id === parseInt(req.params.playerId));
     if (p) {
-        res.json(p);
+        await res.json(p);
     } else {
         res.status(404).send('Not found');
     }
