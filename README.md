@@ -1,15 +1,22 @@
-#NODE.JS-test
+# NODE.JS-test
 
-###Run application
+NODE.JS-test is a Test for nodejs developer.
 
-``cd api/``
+## Installation
 
-``npm run start``
+```npm run i```
 
-###Testing app
+## Usage
+
+```
+cd api/
+
+npm run start
+```
+
+## Testing app
 
 ``npm run test``
 
-
-###Cloud url Api
+## Cloud url Api
 http://ec2-34-242-111-25.eu-west-1.compute.amazonaws.com:3000/players
